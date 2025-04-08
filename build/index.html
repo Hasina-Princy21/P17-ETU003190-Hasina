@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form dept</title>
+</head>
+<body>
+    <div class="container">
+        <a href="previsionform"><button>Formulaire depense</button></a>
+        <form action="previsionform" method="post">
+            <fieldset>
+                <legend>Formulaire Prevision</legend>
+                <div>
+                    <label for="libelle">Libelle</label>
+                    <input type="text" name="libelle" id="libelle" placeholder="Ex : Sakafo" required>
+                </div>
+                <div>
+                    <label for="montant">Libelle</label>
+                    <input type="number" name="montant" id="montant" min="100" placeholder="500" required>
+                </div>
+                <button type="submit">Valide</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
